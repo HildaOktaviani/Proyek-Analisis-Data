@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 pip install streamlit
 (masukkan email)
-streamlit run main.py
+streamlit run dashboard.py
 ```
 
 ## requirements
