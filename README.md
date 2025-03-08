@@ -23,6 +23,8 @@ pip install -r requirements.txt
 pip install streamlit
 (masukkan email)
 streamlit run dashboard.py
+Dashboard juga bisa diakses melalui link
+https://analysisbikesharingdataset.streamlit.app/
 ```
 
 ## requirements
