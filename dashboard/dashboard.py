@@ -8,8 +8,8 @@ st.set_page_config(layout="wide")
 st.title("📊 Dashboard Analisis Penyewaan Sepeda")
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv(r"C:\Users\Hilda Oktaviani\Downloads\Proyek Analisis Data 2\data\day.csv")
-    hour_df = pd.read_csv(r"C:\Users\Hilda Oktaviani\Downloads\Proyek Analisis Data 2\data\hour.csv")
+    day_df = pd.read_csv("https://raw.githubusercontent.com/HildaOktaviani/Proyek-Analisis-Data/refs/heads/main/data/day.csv")
+    hour_df = pd.read_csv("https://raw.githubusercontent.com/HildaOktaviani/Proyek-Analisis-Data/refs/heads/main/data/hour.csv")
     return day_df, hour_df
 
 day_df, hour_df = load_data()
